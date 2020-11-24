@@ -588,3 +588,59 @@
 .header__searchbox-input:focus ~ .header__searchbox-history{
     display: block;
 }
+
+/* App container */
+.app__container{
+    background-color: #F5F5F5 ;
+}
+.category{
+    background-color: var(--white-color);
+    border-radius: 2px;
+}
+.category__heading{
+    color: var(--text-color);
+    font-size: 1.6rem;
+    padding: 12px 16px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    margin: 40px 0 0 0;
+}
+.category__heading-icon{
+    font-size: 1.4rem;
+    margin-right: 4px;
+}
+.category-list{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+.category-item {
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.category-item__link{
+
+    text-decoration: none;
+    position: relative;
+    color: var(--text-color);
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-left: 8px;
+    right: 0;
+    transition: right ease 0.1s ;
+}
+.category-item-icon{
+    font-size: 1.4rem;
+    margin-right: 6px;
+    display: none;
+}
+.category-item__link:hover{
+    right: -4px;
+    color: var(--primary-color);   
+}
+.category-item__link:focus  .category-item-icon{
+    display: inline-block;
+    color: var(--primary-color);
+}
+.category-item__link:focus{
+    color: var(--primary-color);
+}
