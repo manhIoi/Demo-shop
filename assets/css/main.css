@@ -592,6 +592,7 @@
 /* App container */
 .app__container{
     background-color: #F5F5F5 ;
+
 }
 .app__contain{
     padding-top: 40px;
@@ -650,4 +651,67 @@
 /* Home sort + filter */
 .home-filter{
     display: inline-flex;
+    background-color: rgba(0, 0, 0, 0.04);
+    align-items: center;
+    padding: 12px 22px;
+    border-radius: 2px;
+    width: 100%;
+}
+.home-filter__label{
+    color: #555;
+    font-size: 1.4rem;
+    margin-right: 16px;
+}
+.home-filter__page{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+.home-filter__btn{
+    min-width: 90px;
+    margin-right: 12px;
+    background-color: var(--white-color);
+}
+.home-filter__btn:focus{
+    background-color: var(--primary-color);
+}
+.select-input__label{
+    font-size: 1.4rem;
+}
+.select-input__icon{
+    font-size: 1.2rem;
+}
+.home-filter__page-num{
+    font-size: 1.4rem;
+    color: var(--text-color);
+}
+.home-filter__page-current{
+    color: var(--primary-color);
+}
+.home-filter__page-control{
+    display: flex;
+    margin-left: 22px;
+    
+}
+.home-filter__page-btn{
+    background-color: var(--white-color);
+    width: 36px;
+    height: 36px;
+    display: flex;
+    text-decoration: none;
+    border-radius: 2px;
+    border: 0.5px solid var(--boder-color);
+}
+.home-filter__page-btn-control{
+    margin: auto;
+    font-size: 1rem;
+    color: #555;
+}
+.home-filter__page-btn-disable{
+    background-color: #f9f9f9;
+    cursor: default;
+}
+.home-filter__page-btn-disable .home-filter__page-btn-control{
+    color: #ccc;
+    
 }
