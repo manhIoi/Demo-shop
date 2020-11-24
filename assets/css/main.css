@@ -85,6 +85,9 @@
     text-decoration: none; /*bỏ gạch chân*/
     font-weight: 300;
 }
+.header__navbar-item-link i {
+    margin-right: 4px;
+}
 /*Làm mờ khi rê chuột vào*/
 .header_navbar-icon-link:hover,
 .header__navbar-item:hover,.header__navbar-item-link:hover{
