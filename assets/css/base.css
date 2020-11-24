@@ -16,7 +16,7 @@ html{
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
-
+/* responsive */
 .grid{
     width: 1400px;
     max-width: 100%;
@@ -30,6 +30,19 @@ html{
 .grid__row{
     display: flex;/* sắp xếp các element trên 1 hàng*/
     flex-wrap: wrap; /*xuống dòng dựa theo kích thước màn hình*/
+    margin-left: -12px;
+    margin-right: -12px;
+}
+/* Test */
+.grid__column-2{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 16.6667%;
+}
+.grid__column-8{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 83.3334%;
 }
 
 /*animation*/
