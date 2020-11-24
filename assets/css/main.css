@@ -593,6 +593,9 @@
 .app__container{
     background-color: #F5F5F5 ;
 }
+.app__contain{
+    padding-top: 40px;
+}
 .category{
     background-color: var(--white-color);
     border-radius: 2px;
@@ -602,7 +605,7 @@
     font-size: 1.6rem;
     padding: 12px 16px;
     border: 1px solid rgba(0, 0, 0, 0.05);
-    margin: 40px 0 0 0;
+    margin: 0;
 }
 .category__heading-icon{
     font-size: 1.4rem;
@@ -643,4 +646,8 @@
 }
 .category-item__link:focus{
     color: var(--primary-color);
+}
+/* Home sort + filter */
+.home-filter{
+    display: inline-flex;
 }
