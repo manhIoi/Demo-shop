@@ -858,3 +858,8 @@
     font-size: 1.4rem;
     color: var(--white-color);
 }
+ 
+.home-product__pagination{
+    margin-top: 38px ;
+    margin-bottom: 32px;
+}
