@@ -9,6 +9,7 @@
 
 *{
     box-sizing: inherit;
+    
 }
 
 html{
@@ -16,6 +17,7 @@ html{
     line-height: 1.6rem;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 /* responsive */
 .grid{

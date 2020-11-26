@@ -659,6 +659,7 @@
     padding: 12px 22px;
     border-radius: 2px;
     width: 100%;
+    overflow-y: hidden;
 }
 .home-filter__label{
     color: #555;
