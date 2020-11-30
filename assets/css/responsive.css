@@ -1,0 +1,40 @@
+/* mobile & tablet */
+@media (max-width: 1023px){
+    .hide-on-mobile-tablet{
+        display: none;
+    }
+    .header{
+        position: fixed;
+        z-index: 10;
+        top:0;
+        left: 0;
+        right: 0;
+    }
+    .header-with-search{
+        height: 68px;
+    }
+    .header{
+        height: 68px;
+    }
+    .header__cart-icon{
+        margin-right: 30px;
+    }
+    .app__container{
+        margin-top: 114px;
+    }
+    .header__sort-bar{
+        display: flex;
+    }
+}
+/* tablet */
+@media (min-width: 750px) and (max-width: 1023px){
+    .hide-on-tablet{
+        display: none;
+    }
+}
+/* mobile */
+@media (max-width: 739px){
+    .hide-on-mobile{
+        display: none;
+    }
+}

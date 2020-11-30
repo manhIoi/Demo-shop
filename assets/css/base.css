@@ -20,16 +20,6 @@ html{
     overflow-x: hidden;
 }
 /* responsive */
-.grid{
-    width: 1400px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-.grid__full-width{
-    width: 100%; 
-}
-
 .grid__row{
     display: flex;/* sắp xếp các element trên 1 hàng*/
     flex-wrap: wrap; /*xuống dòng dựa theo kích thước màn hình*/

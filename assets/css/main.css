@@ -472,6 +472,7 @@
     border-left:  2px solid var(--boder-color);
     padding-left: 16px;
     position: relative;
+    z-index: 2;
     
 }.header__searchbox-select-label{
     font-size: 1.4rem;
@@ -561,6 +562,7 @@
     top: calc(100% + 4px);
     left: 0;
     display: none;
+    z-index: 2;
 }
 .header__searchbox-history-heading{
     color: #999;
@@ -591,6 +593,54 @@
 .header__searchbox-input:focus ~ .header__searchbox-history{
     display: block;
 }
+
+.header__sort-bar{
+    position: fixed;
+    display: flex;
+    list-style: none;
+    height: 46px;
+    background-color: var(--white-color);
+    top: 68px;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding-left: 0;
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    display: none;
+}
+.header__sort-item{
+    flex: 1;
+    position: relative;
+  
+}
+.header__sort-item::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 60%;
+    top: 50%;
+    border-left:1px solid #e5e5e5;
+    transform: translateY(-50%);
+}
+
+.header__sort-link{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color:var(--text-color);
+    line-height: 46px;
+    display: block;
+    text-align: center;
+    position: relative;
+}
+/* .header__sort-link::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 60%;
+    top: 50%;
+    border-left:3px solid black;
+} */
 
 /* App container */
 .app__container{
@@ -900,7 +950,7 @@
 .footer__dowload-qr{
     width: 80px;
     height: 80px;
-    boder: 1px solid var(--boder-color);
+    border: 1px solid var(--boder-color);
     flex: 1;
 }
 .footer__apps{
