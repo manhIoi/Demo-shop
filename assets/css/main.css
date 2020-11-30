@@ -395,6 +395,7 @@
 }
 .header__mobile-search{
     margin-left: 24px;
+    cursor: pointer;
 }
 .header__mobile-search-icon{
     font-size: 2.6rem;
@@ -412,6 +413,9 @@
     flex: 1;
     background-color: var(--white-color);
     margin: 30px;
+    display: flex;
+}
+.header__search-checkbox:checked ~ .header__searchbox{
     display: flex;
 }
 .header__searchbox-wrap{
