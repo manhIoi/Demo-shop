@@ -37,4 +37,10 @@
     .hide-on-mobile{
         display: none;
     }
+    .header-with-search{
+        justify-content: space-between;
+    }
+    .header__mobile-search-icon{
+        display: block;
+    }
 }
